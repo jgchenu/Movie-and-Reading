@@ -8,7 +8,7 @@ The-first-WeChat-applet 微信小程序
 * > 电影详情可点击头图放大.
 * > 阅读详情 可收藏，音乐可播放。
 * > 电影页可以进行实时预览搜索。
- ![image](https://github.com/751357978/The-first-WeChat-applet/blob/master/images/0.png)
+ ![image](https://github.com/751357978/The-first-WeChat-applet/blob/master/images/0.jpg)
  ![image](https://github.com/751357978/The-first-WeChat-applet/blob/master/images/1.png)
  ![image](https://github.com/751357978/The-first-WeChat-applet/blob/master/images/2.png)
  ![image](https://github.com/751357978/The-first-WeChat-applet/blob/master/images/3.png)
