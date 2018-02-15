@@ -1,0 +1,18 @@
+<template name="post-item">
+  <view class='post-container'>
+    <view class='post-user'>
+      <image src='{{item.avatar}}' class='user-image'></image>
+      <text class='user-time'>{{item.date}}</text>
+      <text class='user-deltime'>{{item.dateTime}}</text>
+    </view>
+    <text class='post-title'>{{item.title}}</text>
+    <image src='{{item.imgSrc}}' class='post-image'></image>
+    <text class='post-desc'>{{item.content}}</text>
+    <view class='post-recent'>
+      <image src='/images/icon/chat.png' class='post-chat'></image>
+      <text>{{item.collection}}</text>
+      <image src='/images/icon/view.png' class='post-view'></image>
+      <text>{{item.reading}}</text>
+    </view>
+  </view>
+</template>

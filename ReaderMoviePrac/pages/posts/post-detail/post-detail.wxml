@@ -1,0 +1,19 @@
+<view class='container'>
+  <image src="{{playMusic?postDetail.music.coverImg:postDetail.imgSrc}}" class='detail-image'></image>
+  <image catchtap='musicTap' src="{{playMusic?'/images/music/music-stop.png':'/images/music/music-start.png'}}" class='audio'></image>
+  <view class='detail-user'>
+    <image src='{{postDetail.avatar}}' class='user-image'></image>
+    <text class='user-name'>{{postDetail.author}}</text>
+    <text class='user-sub'>发布于</text>
+    <text class='user-time'>{{postDetail.dateTime}}</text>
+  </view>
+  <text class='detail-title'>{{postDetail.title}}</text>
+  <view class='decoration'>
+    <view class='icon'>
+      <image class='icon-collection' src="{{collected?'/images/icon/collection.png':'/images/icon/collection-anti.png'}}" catchtap='collectionTap'></image>
+      <image class='icon-share' src='/images/icon/share.png' catchtap='shareTap'></image>
+    </view>
+    <view class='line'></view>
+  </view>
+  <text class='detail-content'>{{postDetail.detail}}</text>
+</view>

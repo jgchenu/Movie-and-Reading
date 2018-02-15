@@ -1,0 +1,7 @@
+<view class='container'>
+  <image src='/images/avatar/4.png' class='userAvatar'></image>
+  <text class='userName'><text style='color:red;'>hello</text> 建光小朋友</text>
+  <view class='motoContainer' bindtap="tapName">
+  <text class='moto'>开启小程序之旅</text>
+  </view>
+</view>

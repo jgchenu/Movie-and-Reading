@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+}
+
+.detail-image {
+  height: 400rpx;
+  width: 100%;
+}
+
+.detail-user {
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.audio{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 320rpx;
+  top: 120rpx;
+}
+.user-image {
+  width: 70rpx;
+  height: 70rpx;
+  /* margin: 20rpx 20rpx 20rpx 10rpx; *//* display: inline;  */
+  vertical-align: middle;
+}
+
+.user-name {
+  font-size: 30rpx;
+  color: #bbb;
+  margin-left: 10rpx;
+}
+
+.user-time, .user-sub {
+  font-size: 28rpx;
+  color: #ccc;
+}
+
+.user-sub {
+  margin-left: 300rpx;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+}
+.detail-title{
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: bloder;
+}
+.decoration {
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 100%;
+}
+
+.icon {
+  height: 100rpx;
+  float: right;
+  margin-right: 0rpx;
+}
+
+.icon-collection, .icon-share {
+  height: 80rpx;
+  width: 80rpx;
+  margin-right: 30rpx;
+}
+
+.line {
+  height: 2rpx;
+  width: 700rpx;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+  top: 40rpx;
+  z-index: -1;
+}
+.detail-content{
+  font-size: 24rpx;
+  color: #000;
+  padding-left: 10rpx;
+  letter-spacing: 4rpx;
+}
